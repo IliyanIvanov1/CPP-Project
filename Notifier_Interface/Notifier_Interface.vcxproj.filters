@@ -1,0 +1,297 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\DBSets_Headers">
+      <UniqueIdentifier>{664c10a5-eea9-4df3-b50f-a23ec59bec91}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Structs_Headers">
+      <UniqueIdentifier>{0742d44f-8b72-4e81-a80c-022cd7b297a2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Structs_CPPs">
+      <UniqueIdentifier>{e058eecf-c3c3-4036-a9ec-4cda1779a769}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\DBSets_CPPs">
+      <UniqueIdentifier>{1990bc45-8110-46c6-809a-8f6f54aeb5f8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Services_Headers">
+      <UniqueIdentifier>{44352250-89a1-4e27-84e2-5015f57f85b0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Services_CPPs">
+      <UniqueIdentifier>{cd90503e-afb0-4e8a-84b0-600e331b0a1f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Notifier_Interface.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Notifier_InterfaceDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CAMPAIGN.h">
+      <Filter>Header Files\Structs_Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="CAMPAIGN_FILTER.h">
+      <Filter>Header Files\Structs_Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="CLIENT.h">
+      <Filter>Header Files\Structs_Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="CLIENT_TYPE.h">
+      <Filter>Header Files\Structs_Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="EMAIL.h">
+      <Filter>Header Files\Structs_Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="FILTER_TYPE.h">
+      <Filter>Header Files\Structs_Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="OUTGOING_MESSAGES.h">
+      <Filter>Header Files\Structs_Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="PHONE_NUMBER.h">
+      <Filter>Header Files\Structs_Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="PRIORITY.h">
+      <Filter>Header Files\Structs_Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="USER.h">
+      <Filter>Header Files\Structs_Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Functions.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="POSITIONN.h">
+      <Filter>Header Files\Structs_Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="DBContext.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ITable.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CCampaignDBSet.h">
+      <Filter>Header Files\DBSets_Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="CCampaignFilterDBSet.h">
+      <Filter>Header Files\DBSets_Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="CClientDBSet.h">
+      <Filter>Header Files\DBSets_Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="CClientTypeDBSet.h">
+      <Filter>Header Files\DBSets_Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="CEmailDBSet.h">
+      <Filter>Header Files\DBSets_Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="CFilterTypeDBSet.h">
+      <Filter>Header Files\DBSets_Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="COutgoingMessagesDBSet.h">
+      <Filter>Header Files\DBSets_Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="CPhoneNumberDBSet.h">
+      <Filter>Header Files\DBSets_Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="CPositionDBSet.h">
+      <Filter>Header Files\DBSets_Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="CPriorityDBSet.h">
+      <Filter>Header Files\DBSets_Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="CUserDBSet.h">
+      <Filter>Header Files\DBSets_Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="CNormalUserDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CUserService.h">
+      <Filter>Header Files\Services_Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="CClientService.h">
+      <Filter>Header Files\Services_Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="CRegisterUserDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CAdminUserDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CCampaignService.h">
+      <Filter>Header Files\Services_Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="COUNTRY.h">
+      <Filter>Header Files\Structs_Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="CCountryDBSet.h">
+      <Filter>Header Files\DBSets_Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="CClientTypeService.h">
+      <Filter>Header Files\Services_Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="CCountryService.h">
+      <Filter>Header Files\Services_Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="CPositionService.h">
+      <Filter>Header Files\Services_Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="CAddNewCampaignDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CFilterServices.h">
+      <Filter>Header Files\Services_Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="ListClientsDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CEmailService.h">
+      <Filter>Header Files\Services_Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="CPhoneNumberService.h">
+      <Filter>Header Files\Services_Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="UpdateClientDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CClientAddDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Notifier_Interface.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Notifier_InterfaceDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Functions.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CCampaignDBSet.cpp">
+      <Filter>Source Files\DBSets_CPPs</Filter>
+    </ClCompile>
+    <ClCompile Include="CCampaignFilterDBSet.cpp">
+      <Filter>Source Files\DBSets_CPPs</Filter>
+    </ClCompile>
+    <ClCompile Include="CClientDBSet.cpp">
+      <Filter>Source Files\DBSets_CPPs</Filter>
+    </ClCompile>
+    <ClCompile Include="CClientTypeDBSet.cpp">
+      <Filter>Source Files\DBSets_CPPs</Filter>
+    </ClCompile>
+    <ClCompile Include="CEmailDBSet.cpp">
+      <Filter>Source Files\DBSets_CPPs</Filter>
+    </ClCompile>
+    <ClCompile Include="CFilterTypeDBSet.cpp">
+      <Filter>Source Files\DBSets_CPPs</Filter>
+    </ClCompile>
+    <ClCompile Include="COutgoingMessagesDBSet.cpp">
+      <Filter>Source Files\DBSets_CPPs</Filter>
+    </ClCompile>
+    <ClCompile Include="CPhoneNumberDBSet.cpp">
+      <Filter>Source Files\DBSets_CPPs</Filter>
+    </ClCompile>
+    <ClCompile Include="CPositionDBSet.cpp">
+      <Filter>Source Files\DBSets_CPPs</Filter>
+    </ClCompile>
+    <ClCompile Include="CPriorityDBSet.cpp">
+      <Filter>Source Files\DBSets_CPPs</Filter>
+    </ClCompile>
+    <ClCompile Include="CUserDBSet.cpp">
+      <Filter>Source Files\DBSets_CPPs</Filter>
+    </ClCompile>
+    <ClCompile Include="CNormalUserDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DBContext.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CUserService.cpp">
+      <Filter>Source Files\Services_CPPs</Filter>
+    </ClCompile>
+    <ClCompile Include="CClientService.cpp">
+      <Filter>Source Files\Services_CPPs</Filter>
+    </ClCompile>
+    <ClCompile Include="CRegisterUserDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CAdminUserDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CCampaignService.cpp">
+      <Filter>Source Files\Services_CPPs</Filter>
+    </ClCompile>
+    <ClCompile Include="CCountryDBSet.cpp">
+      <Filter>Source Files\DBSets_CPPs</Filter>
+    </ClCompile>
+    <ClCompile Include="CClientTypeService.cpp">
+      <Filter>Source Files\Services_CPPs</Filter>
+    </ClCompile>
+    <ClCompile Include="CCountryService.cpp">
+      <Filter>Source Files\Services_CPPs</Filter>
+    </ClCompile>
+    <ClCompile Include="CPositionService.cpp">
+      <Filter>Source Files\Services_CPPs</Filter>
+    </ClCompile>
+    <ClCompile Include="CAddNewCampaignDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CFilterServices.cpp">
+      <Filter>Source Files\Services_CPPs</Filter>
+    </ClCompile>
+    <ClCompile Include="ListClientsDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CEmailService.cpp">
+      <Filter>Source Files\Services_CPPs</Filter>
+    </ClCompile>
+    <ClCompile Include="CPhoneNumberService.cpp">
+      <Filter>Source Files\Services_CPPs</Filter>
+    </ClCompile>
+    <ClCompile Include="UpdateClientDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CClientAddDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="NotifierInterface.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\NotifierInterface.rc2">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\Notifier_Interface.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
